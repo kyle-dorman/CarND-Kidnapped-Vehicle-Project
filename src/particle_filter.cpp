@@ -90,6 +90,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
       1
     };
     particles.push_back(p);
+    weights.push_back(1.0);
   }
 
   is_initialized = true;
